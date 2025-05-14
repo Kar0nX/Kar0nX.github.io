@@ -5,9 +5,6 @@ permalink: /notes/
 author_profile: false
 sidebar:
   nav: menu
-header:
-  overlay_image: /assets/images/banner.png
-  overlay_filter: 0.5  
 ---
 
 <html lang="en">
