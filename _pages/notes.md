@@ -1,10 +1,10 @@
 ---
-title: Hacking Notes
+title: "Hacking Notes"
 layout: archive
 permalink: /notes/
-author_profile: true
+author_profile: false
 sidebar:
-  nav: menu
+  nav: "menu"
 ---
 
 <html lang="en">
