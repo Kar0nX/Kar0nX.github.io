@@ -7,3 +7,16 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+menu:
+  - title: "Port Scanning"
+    children:
+      - title: "Nmap Port Scanning"
+        url:     
+      - title: "Nmap Scripts"
+        url: 
+      - title: "────────────────"  
+  - title: "Service Enumeration" 
+        url: 
+      - title: "21 - FTP" 
+        url:
+      - title: "22 - SSH" 
