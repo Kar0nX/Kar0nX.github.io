@@ -14,8 +14,8 @@ menu:
         url:     
       - title: "Nmap Scripts"
         url: 
-      - title: "────────────────"  
-  - title: "Service Enumeration" 
+      - title: "────────────────"
+      - title: "Service Enumeration" 
         url: 
       - title: "21 - FTP" 
         url:
