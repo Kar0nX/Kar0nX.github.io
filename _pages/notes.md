@@ -4,10 +4,7 @@ layout: archive
 permalink: /notes/
 author_profile: true
 sidebar:
-  nav: "menu"
-header:
-  overlay_image: /assets/images/main/menu-header.jpg
-  overlay_filter: 0.5  
+  nav: menu
 ---
 
 <html lang="en">
