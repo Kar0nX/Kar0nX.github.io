@@ -15,7 +15,6 @@ menu:
         url:     
       - title: "Nmap Scripts"
         url: 
-      - title: "────────────────"
   - title: "Service Enumeration"
     children:
       - title: "21 - FTP" 
