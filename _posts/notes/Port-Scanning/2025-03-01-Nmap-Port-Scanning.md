@@ -1,5 +1,6 @@
 ---
 title: "Port Scanning"
+permalink: /notes/nmap-port-scanning
 classes: single
 ribbon: Firebrick
 excerpt: "Nmap Port Scanning"
