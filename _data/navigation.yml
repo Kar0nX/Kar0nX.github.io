@@ -18,6 +18,24 @@ menu:
   - title: "Service Enumeration"
     children:
       - title: "21 - FTP" 
-        url: 
+        url: /notes/21-FTP/
       - title: "22 - SSH"
-        url:
+        url: /notes/22-SSH/
+      - title: "25 - SMPT" 
+        url: /notes/25-SMPT/
+      - title: "53 - DNS"
+        url: /notes/53-DNS/
+      - title: "110 - POP3" 
+        url: /notes/110-POP3/
+      - title: "111, 2049 - NFS"
+        url: /notes/111-2049-NFS/
+      - title: "139, 445 - SMB"
+        url: /notes/139-445-SMB/
+      - title: "161 - SNMP"
+        url: /notes/161-SNMP/
+      - title: "1443 - MsSQL"
+        url: /notes/1443-MsSQL/
+      - title: "1521 - Oracle"
+        url: /notes/1521-Oracle/
+      - title: "3306 - MySQL"
+        url: /notes/3306-MySQL/
