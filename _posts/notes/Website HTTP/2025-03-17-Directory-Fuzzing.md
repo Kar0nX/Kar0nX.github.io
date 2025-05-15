@@ -21,7 +21,7 @@ hide_title: true
 excerpt: ""
 ---
 
-# Ffuf
+## Ffuf
 
 ### Simple Scan
 
@@ -47,7 +47,7 @@ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "
 ffuf -w /opt/dirsearch/big.txt -u http://bounty.htb/FUZZ -e .asp,.aspx,.txt
 ```
 
-# DirBuster
+## DirBuster
 
 **great GUI directory buster**
 
@@ -55,7 +55,7 @@ ffuf -w /opt/dirsearch/big.txt -u http://bounty.htb/FUZZ -e .asp,.aspx,.txt
 dirbuster&
 ```
 
-# GoBuster
+## GoBuster
 
 ### Normal Scan
 
@@ -71,13 +71,13 @@ Sometimes it's necessary to look only for directories and not for files so we ca
 gobuster dir -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -u 10.10.10.56 -f
 ```
 
-# DirSearch
+## DirSearch
 
 ```
 dirsearch.py -u http://10.10.10.5:80/ -e txt,asp,aspx
 ```
 
-# Extension Examples
+## Extension Examples
 
 | .sh     | .txt | .php  | .html |
 | ------- | ---- | ----- | ----- |
