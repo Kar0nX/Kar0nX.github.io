@@ -3,8 +3,8 @@ title: "Hacking Notes"
 layout: archive
 permalink: /notes/
 author_profile: false
-header:  
-  overlay_image: "/assets/images/main_banner.jpg"
+# header:  
+#  overlay_image: "/assets/images/main_banner.jpg"
 sidebar:
   nav: menu
 ---
