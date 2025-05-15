@@ -6,13 +6,16 @@ header:
   overlay_filter: 0.3
 ribbon: Firebrick
 excerpt: "Nmap Port Scanning"
+permalink: /notes/Nnmap-port-scanning/
 categories:
   - notes
+  - oscp
+  - nmap
 tags:
   - beginner
   - pentest
   - recon
-  - OSCP
+  - oscp
   - nmap
 toc: true
 ---
