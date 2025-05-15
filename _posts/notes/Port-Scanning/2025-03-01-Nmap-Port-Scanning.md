@@ -8,8 +8,6 @@ ribbon: Firebrick
 excerpt: "Nmap Port Scanning"
 categories:
   - notes
-  - oscp
-  - nmap
 tags:
   - beginner
   - pentest
