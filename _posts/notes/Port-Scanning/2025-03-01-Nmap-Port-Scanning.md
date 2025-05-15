@@ -4,8 +4,7 @@ classes: single
 header:  
   overlay_image: /assets/images/banner.jpg
   overlay_filter: 0.3
-ribbon: Firebrick
-excerpt: "Nmap Port Scanning"
+ribbon: LightBlue
 categories:
   - notes
 tags:
