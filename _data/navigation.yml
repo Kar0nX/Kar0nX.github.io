@@ -59,16 +59,16 @@ menu:
         url: /notes/Post-Requests/
   - title: "Password Attacks"
     children:
-      - title: "" 
-        url: 
-      - title: "" 
-        url: 
-      - title: "" 
-        url: 
+      - title: "Bruteforce service password" 
+        url: /notes/Bruteforce-service-password/
+      - title: "Cracking Password" 
+        url: /notes/Cracking-Password/
+      - title: "Custom Worldlist" 
+        url: /notes/Custom-Worldlist/
   - title: "Exploitation"
     children:
-      - title: "" 
-        url: 
-      - title: "" 
-        url: 
+      - title: "Compiling the Exploit" 
+        url: /notes/Compiling-the-Exploit/
+      - title: "Searchsploit - Offline" 
+        url: /notes/Searchsploit-Offline/
 
