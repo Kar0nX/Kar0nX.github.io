@@ -4,7 +4,7 @@ classes: single
 header:  
   overlay_image: /assets/images/banner.jpg
   overlay_filter: 0.3
-  height: "25vh"
+  height: "15vh"
 ribbon: LightBlue
 categories:
   - notes
