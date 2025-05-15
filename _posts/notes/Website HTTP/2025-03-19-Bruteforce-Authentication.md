@@ -41,13 +41,6 @@ hydra 10.0.0.1 http-post-form "/admin.php:target=auth&mode=login&user=^USER^&pas
 
 ## Send request along with cookies
 
-Consider following request:
-![[Pasted image 20250507170410.png]]
-
-As can be seen in the first line of the screenshot, the GET request in this form includes a third parameter called Login. The login parameters contain a static value indicating a login action which will be added to the Hydra http-get-form parameter as a third variable after the username and password variables. There is also a cookie with information such as the DVWA security level and a PHP session ID.
-
-**To make Hydra use the Cookie we also need to add the H parameter to the request** followed by the information we see in line 8 of the screenshot: the security parameter (i.e. low) and the PHP session id (PHPSESSID) value shown in red. After making these modifications the http-form-get parameter will look as follows:
-
 ```
 hydra 10.11.1.250 -t 2 -l admin -P /usr/share/wordlists/rockyou.txt http-form-get "/dvwa/vulnerabilities/brute/index.php:username=^USER^&password=^PASS^&Login=Login:Username and/or password incorrect.:H=Cookie: security=low;PHPSESSID=409e45633a8281adb8f182021cfacd14"
 ```
