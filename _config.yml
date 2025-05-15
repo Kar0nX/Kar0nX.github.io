@@ -62,7 +62,7 @@ plugins:
 
 author:
   name   : "Karol Rapacz"
-  avatar : "/assets/images/logo.jpg"
+  avatar : "/assets/images/essa.png"
   bio    : "My persolnal blog."
   links:
     - label: "Website"
