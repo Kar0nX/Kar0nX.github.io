@@ -1,6 +1,5 @@
 ---
-title: "Port Scanning"
-permalink: /notes/nmap-port-scanning/
+title: "Nmap Port Scanning"
 classes: single
 header:  
   overlay_image: /assets/images/banner.jpg
@@ -9,8 +8,6 @@ ribbon: Firebrick
 excerpt: "Nmap Port Scanning"
 categories:
   - notes
-  - nmap
-  - oscp
 tags:
   - beginner
   - pentest
