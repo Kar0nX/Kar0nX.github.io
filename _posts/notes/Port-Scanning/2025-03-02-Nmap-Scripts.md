@@ -45,7 +45,7 @@ nmap -p 80 --script=http*vuln* [ip target]
 # Scan a target using all HTTP vulns NSE scripts.
 ```
 
-# Script Options
+## Script Options
 
 | Nmap Script Category | Description                                                                                                                                   |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
