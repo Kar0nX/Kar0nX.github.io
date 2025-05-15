@@ -37,13 +37,13 @@ Online,
 
 ## Online tools
 
-#### findmyhash
+### findmyhash
 
 ```
 findmyhash LM -h 6c3d4c343f999422aad3b435b51404ee:bcd477bfdb45435a34c6a38403ca4364
 ```
 
-#### Cracking
+### Cracking
 
 - Crackstation [https://crackstation.net/](https://crackstation.net/)
 - Hashkiller [https://hashkiller.co.uk/](https://hashkiller.co.uk/)
@@ -68,7 +68,7 @@ zip2john ZIP.zip > zip.hash
 cat zip.hash 
 ```
 
-#### Cracking the Hash with John
+### Cracking the Hash with John
 
 ```
 john --wordlist=rockyou.txt zip.hash
