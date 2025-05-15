@@ -3,8 +3,8 @@ main:
     url: /
   - title: "Notes"
     url: /notes/
-  - title: "Tags"
-    url: /tags/
+ # - title: "Tags"
+ #   url: /tags/
   - title: "About"
     url: /about/
     
