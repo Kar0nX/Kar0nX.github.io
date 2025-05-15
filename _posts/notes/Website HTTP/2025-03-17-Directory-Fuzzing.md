@@ -47,7 +47,9 @@ ffuf -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -H "
 ffuf -w /opt/dirsearch/big.txt -u http://bounty.htb/FUZZ -e .asp,.aspx,.txt
 ```
 
-# DirBuster - great GUI directory buster
+# DirBuster
+
+**great GUI directory buster**
 
 ```
 dirbuster&
