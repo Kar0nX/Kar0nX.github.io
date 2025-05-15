@@ -12,12 +12,12 @@ menu:
   - title: Port Scanning
     children:
       - title: "Nmap Port Scanning"
-        url:     
+        url: /notes/Port-Scanning/2025-03-01-Nmap-Port-Scanning.md    
       - title: "Nmap Scripts"
         url: 
   - title: "Service Enumeration"
     children:
       - title: "21 - FTP" 
-        url: /_notes/Services Enumeration/21 - FTP/
+        url: 
       - title: "22 - SSH"
         url:
