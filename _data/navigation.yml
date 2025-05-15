@@ -14,7 +14,7 @@ menu:
       - title: "Nmap Port Scanning"
         url: /notes/Nmap-Port-Scanning/ 
       - title: "Nmap Scripts"
-        url: 
+        url: /notes/Nmap-Scripts/
   - title: "Service Enumeration"
     children:
       - title: "21 - FTP" 
