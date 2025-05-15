@@ -4,7 +4,6 @@ classes: single
 header:  
   overlay_image: /assets/images/banner.jpg
   overlay_filter: 0.3
-  height: "15vh"
 ribbon: LightBlue
 categories:
   - notes
@@ -15,6 +14,7 @@ tags:
   - oscp
   - nmap
 toc: true
+hide_title: true
 ---
 ## Scan for alive hosts
 
