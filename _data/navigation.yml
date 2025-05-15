@@ -18,6 +18,6 @@ menu:
   - title: "Service Enumeration"
     children:
       - title: "21 - FTP" 
-        url:
+        url: /_notes/Services Enumeration/21 - FTP/
       - title: "22 - SSH"
         url:
