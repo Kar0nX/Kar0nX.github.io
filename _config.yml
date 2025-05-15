@@ -118,6 +118,10 @@ defaults:
       layout: single
       author_profile: true
 
+toc:
+  min_level: 2
+  max_level: 3
+  
 category_archive:
   type: liquid
   path: /categories/
