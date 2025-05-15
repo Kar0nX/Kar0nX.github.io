@@ -5,6 +5,7 @@ classes: single
 header:  
   overlay_image: /assets/images/banner.jpg
   overlay_filter: 0.3
+  overlay_full: true
 ribbon: Firebrick
 excerpt: "Nmap Port Scanning"
 categories:
