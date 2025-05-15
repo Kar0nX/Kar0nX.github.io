@@ -3,7 +3,6 @@ title: "Nmap Port Scanning"
 classes: single
 header:  
   overlay_image: /assets/images/banner.jpg
-  overlay_filter: 0.3
 ribbon: LightBlue
 categories:
   - notes
