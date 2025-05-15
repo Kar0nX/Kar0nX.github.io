@@ -12,7 +12,7 @@ menu:
   - title: Port Scanning
     children:
       - title: "Nmap Port Scanning"
-        url: /notes/nmap-port-scanning/  
+        url: /notes/Nmap-Port-Scanning/ 
       - title: "Nmap Scripts"
         url: 
   - title: "Service Enumeration"
