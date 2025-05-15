@@ -17,6 +17,18 @@ sidebar:
   <style>
     body {
 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="{{ '/assets/images/...' | relative_url }}" alt="Option Image">
+  </div>
+</body>
+</html>
+
+## Make Notes Your Own
+
 When it comes to effective learning, nothing beats **making your own notes**.
 
 It's tempting to rely solely on materials available online — and don't get me wrong, I do it all the time too. There's a huge amount of great content created by others, and it's incredibly helpful. Unfortunately, I can’t name every author I’ve learned from — there are just too many, and I’m grateful to all of them.
@@ -34,13 +46,3 @@ So here's my advice:
 In the end, **your notes should work for you** — not just be a copy of someone else's.
 
 Happy learning!
-
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="{{ '/assets/images/essa.png' | relative_url }}" alt="Option Image">
-  </div>
-</body>
-</html>
