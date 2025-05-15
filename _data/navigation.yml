@@ -39,3 +39,36 @@ menu:
         url: /notes/1521-Oracle/
       - title: "3306 - MySQL"
         url: /notes/3306-MySQL/
+  - title: "Website HTTP"
+    children:
+      - title: "Web Scanning" 
+        url: /notes/Web-Scanning/
+      - title: "CMS" 
+        url: /notes/CMS/
+      - title: "Directory Fuzzing" 
+        url: /notes/Directory-Fuzzing/
+      - title: "File Upload" 
+        url: /notes/File-Upload/
+      - title: "Bruteforce Authentication" 
+        url: /notes/Bruteforce-Authentication/
+      - title: "LFI and RFI" 
+        url: /notes/LFI-and-RFI/
+      - title: "ShellShock" 
+        url: /notes/ShellShock/
+      - title: "Post Requests" 
+        url: /notes/Post-Requests/
+  - title: "Password Attacks"
+    children:
+      - title: "" 
+        url: 
+      - title: "" 
+        url: 
+      - title: "" 
+        url: 
+  - title: "Exploitation"
+    children:
+      - title: "" 
+        url: 
+      - title: "" 
+        url: 
+
