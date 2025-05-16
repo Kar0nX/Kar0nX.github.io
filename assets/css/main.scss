@@ -11,26 +11,28 @@ search: false
 
 // 🔢 Styl licznika odwiedzin
 .site-stats {
-  font-size: 1rem;
-  color: #666;
-  margin: 2rem auto;
+  font-size: 0.9rem;
+  color: #444;
+  margin: 1.5rem auto 2rem;
   text-align: center;
 
-  span {
-    margin: 0 0.5rem;
+  .stat-item {
     display: inline-block;
-    background: #f4f4f4;
-    padding: 0.5em 1.2em;
-    border-radius: 25px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-
-    strong {
-      color: #000;
-    }
+    margin: 0 0.4rem;
+    padding: 0.4em 1em;
+    background: #f0f0f0;
+    border-radius: 999px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: background 0.2s ease;
+    line-height: 1.4;
 
     &:hover {
-      background: #eaeaea;
+      background: #e4e4e4;
+    }
+
+    span {
+      font-weight: 600;
+      color: #000;
     }
   }
 }
