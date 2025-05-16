@@ -67,10 +67,10 @@ author:
   location: "Poland"
   links:
     - label: "TryHackme"
-      icon: "fab fa-fw fas fa-user-secret"
+      icon: "fas fa-user-secret"
       url: "https://tryhackme.com/p/Kar0n"
     - label: "HackTheBox"
-      icon: "fab fa-fw fas fa-cube"
+      icon: "fas fa-cube"
       url: "https://app.hackthebox.com/profile/2219688"
    # - label: "Twitter"
    #   icon: "fab fa-fw fa-twitter-square"
