@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "Karol Rapacz"
   avatar : "/assets/images/essa.png"
-  bio    : "My persolnal blog."
+  bio    : "Pentester & cybersecurity enthusiast."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
