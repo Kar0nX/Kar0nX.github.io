@@ -64,6 +64,7 @@ author:
   name   : "Karol Rapacz"
   avatar : "/assets/images/essa.png"
   bio    : "Pentester & cybersecurity enthusiast."
+  location: "Poland"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
