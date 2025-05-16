@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+// ⬇️ Skórka (light, dark, neon, itd.)
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// 🔢 Styl licznika odwiedzin
+.site-stats {
+  font-size: 1rem;
+  color: #666;
+  margin: 2rem auto;
+  text-align: center;
+
+  span {
+    margin: 0 0.5rem;
+    display: inline-block;
+    background: #f4f4f4;
+    padding: 0.5em 1.2em;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    strong {
+      color: #000;
+    }
+
+    &:hover {
+      background: #eaeaea;
+    }
+  }
+}
