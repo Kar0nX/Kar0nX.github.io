@@ -66,7 +66,7 @@ author:
   bio    : "Cybersecurity enthusiast."
   location: "Poland"
   links:
-    - label: ""
+    - label: "&nbsp;"
       icon: ""
       url: ""
     - label: " GitHub"
