@@ -64,10 +64,8 @@ author:
   name   : "Karol Rapacz"
   avatar : "/assets/images/essa.png"
   bio    : "Cybersecurity enthusiast."
-  location: "Poland"
+#  location: "Poland"
   links:
-    - label: " "
-      icon: "fas fa-minus"
     - label: " GitHub"
       icon: "fab fa-github"
       url: "https://github.com/Kar0nX/"
