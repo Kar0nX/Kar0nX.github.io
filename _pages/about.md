@@ -1,16 +1,12 @@
 ---
 permalink: /about/
 title: "About"
+author_profile: true
+layout: single
 # header:  
 #  overlay_image: "/assets/images/main_banner.jpg"
 ---
 
----
-title: "About Me"
-layout: single
-permalink: /about/
-author_profile: true
----
 
 ## Hey, I'm Kar0n 👋
 
