@@ -5,6 +5,45 @@ title: "About"
 #  overlay_image: "/assets/images/main_banner.jpg"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+---
+title: "About Me"
+layout: single
+permalink: /about/
+author_profile: true
+---
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## Hey, I'm Kar0n 👋
+
+I'm a cybersecurity enthusiast and aspiring ethical hacker, currently focused on learning **penetration testing** and **offensive security**.  
+This blog is my personal knowledge base — built to help me study, stay organized, and grow in the field.
+
+I hold a **Master's degree in Cybersecurity** from **UNS Łódź (University of Applied Sciences, Poland)**.
+
+### 🔍 What I do
+
+- Practice **web**, **network**, and **Active Directory** exploitation  
+- Study for certifications like **OSCP**, **PNPT**, and **CPTS**  
+- Solve labs and machines from **Hack The Box** and **TryHackMe**  
+- Document notes, cheatsheets, and walkthroughs for future reference  
+- Learn, break, fix, and learn again  
+
+### 🧠 Why I Built This Site
+
+There’s a ton of great material online — I use it too — but I believe that  
+**writing your own notes is the fastest way to actually learn**.
+
+I collect, adapt, and simplify content to suit how *I* learn best.  
+This site is my external brain, and if it helps someone else along the way — even better.
+
+### 🎯 Goals
+
+- Achieve mastery in core pentesting areas  
+- Earn top-tier certifications  
+- Contribute back to the infosec community  
+- Never stop learning  
+
+---
+
+Thanks for visiting — feel free to check out the [notes](/notes/) or reach out if you're on a similar path.
+
+Stay curious and keep hacking 🔓
