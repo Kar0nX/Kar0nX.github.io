@@ -66,8 +66,8 @@ author:
   bio    : "Cybersecurity enthusiast."
   location: "Poland"
   links:
-    - label: "―――――――――――――――――――――"
-      url: "#"
+    - label: " "
+      icon: "fas fa-minus"
     - label: " GitHub"
       icon: "fab fa-github"
       url: "https://github.com/Kar0nX/"
