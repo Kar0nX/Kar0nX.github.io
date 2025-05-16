@@ -4,6 +4,16 @@ layout: archive
 
 {{ content }}
 
+<!-- 👁️ Visit Counter — ABOVE Recent Posts -->
+<div class="site-stats">
+  <span id="busuanzi_container_site_pv" style="margin-right: 1rem;">
+     <strong><span id="busuanzi_value_site_pv"></span></strong> page views
+  </span>
+  <span id="busuanzi_container_site_uv">
+     <strong><span id="busuanzi_value_site_uv"></span></strong> unique visitors
+  </span>
+</div>
+
 <h3 class="archive__subtitle">
   {{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}
 </h3>
@@ -21,14 +31,5 @@ layout: archive
 
 {% include paginator.html %}
 
-<!-- 👁️ Licznik odwiedzin -->
-<div class="site-stats">
-  <span id="busuanzi_container_site_pv" style="margin-right: 1rem;">
-     <strong><span id="busuanzi_value_site_pv"></span></strong> views
-  </span>
-  <span id="busuanzi_container_site_uv">
-     <strong><span id="busuanzi_value_site_uv"></span></strong> unique users
-  </span>
-</div>
-
+<!-- Busuanzi Visitor Counter Script -->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
