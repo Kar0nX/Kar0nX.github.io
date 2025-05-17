@@ -61,7 +61,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Karol Rapacz"
+  name   : "Kar0n"
   nickname : "Kar0n"
   avatar : "/assets/images/essa.png"
   bio    : "Cybersecurity enthusiast."
