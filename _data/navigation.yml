@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Notes"
     url: /notes/
+  - title: "Write-Ups"
+    url: /writeups/
  # - title: "Tags"
  #   url: /tags/
   - title: "About"
@@ -71,4 +73,10 @@ menu:
         url: /notes/Compiling-the-Exploit/
       - title: "Searchsploit - Offline" 
         url: /notes/Searchsploit-Offline/
-
+menu_writeups:
+  - title: HackTheBox
+    children:
+      - title: "Access"
+        url: /writeups/Access/ 
+      - title: "Arctic"
+        url: /writeups/Arctic/
