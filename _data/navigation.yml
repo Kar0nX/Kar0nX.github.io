@@ -73,6 +73,38 @@ menu:
         url: /notes/Compiling-the-Exploit/
       - title: "Searchsploit - Offline" 
         url: /notes/Searchsploit-Offline/
+  - title: "Shell"
+    children:
+      - title: "Reverse & Bind Shell" 
+        url: /notes/ReverseandBindShell/
+      - title: "Upgrading to TTY Shell" 
+        url: /notes/UpgradingtoTTYshell/
+      - title: "MSFvenom" 
+        url: /notes/MSFvenom/
+  - title: "Linux Privilege Escalation"
+    children:
+      - title: "Manual Exploitation" 
+        url: /notes/linuxmanualexploit/
+      - title: "Automated Exploitation" 
+        url: /notes/linuxautoexploit/
+      - title: "" 
+        url: 
+  - title: "Windows Privilege Escalation"
+    children:
+      - title: "Manual Exploitation" 
+        url: /notes/windowsmanualexploit/
+      - title: "Automated Exploitation" 
+        url: /notes/windowsautoexploit/
+      - title: "Dumping SAM file" 
+        url: /notes/Dumping-SAM-file/
+  - title: "File Transfer"
+    children:
+      - title: "General" 
+        url: /notes/filetransfergeneral/
+      - title: "Linux" 
+        url: /notes/filetransferlinux/
+      - title: "Windows" 
+        url: /notes/filetransferwindows/
 menu_writeups:
   - title: HackTheBox
     children:
