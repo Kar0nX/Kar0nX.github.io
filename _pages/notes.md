@@ -22,7 +22,7 @@ sidebar:
 </head>
 <body>
   <div class="container">
-    <img src="{{ '/assets/images/hacking_notes.jpg' | relative_url }}" alt="Option Image">
+    <img src="{{ '/assets/images/hacking_notes.jpg' | relative_url }}" alt="Hacking Notes for OSCP and PNPT exams">
   </div>
 </body>
 </html>
