@@ -22,7 +22,7 @@ sidebar:
 </head>
 <body>
   <div class="container">
-    <img src="{{ '/assets/images/writeup.jpg' | relative_url }}" alt="Option Image">
+    <img src="{{ '/assets/images/writeup.jpg' | relative_url }}" alt="Writeups for HTB HackTheBox and THM TryHackMe machines">
   </div>
 </body>
 </html>
