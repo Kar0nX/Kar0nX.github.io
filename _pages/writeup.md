@@ -1,7 +1,7 @@
 ---
 title: "Write Up's"
 layout: archive
-permalink: /writeups/
+permalink: /writeup/
 author_profile: false
 # header:  
 #  overlay_image: "/assets/images/main_banner.jpg"
