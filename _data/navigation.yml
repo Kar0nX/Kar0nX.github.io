@@ -4,7 +4,7 @@ main:
   - title: "Notes"
     url: /notes/
   - title: "Write-Ups"
-    url: /writeups/
+    url: /writeup/
  # - title: "Tags"
  #   url: /tags/
   - title: "About"
@@ -109,6 +109,55 @@ menu_writeups:
   - title: HackTheBox
     children:
       - title: "Access"
-        url: /writeups/Access/ 
+        url: /writeup/Access/ 
       - title: "Arctic"
-        url: /writeups/Arctic/
+        url: /writeup/Arctic/
+      - title: "Bashed"
+        url: /writeup/Bashed/
+      - title: "Bastard"
+        url: /writeup/Bastard/
+      - title: "Bastion"
+        url: /writeup/Bastion/
+      - title: "Blue"
+        url: /writeup/Blue/
+      - title: "Chatterbox"
+        url: /writeup/Chatterbox/
+      - title: "Devel"
+        url: /writeup/Devel/
+      - title: "Dog"
+        url: /writeup/Dog/
+      - title: "Grandpa"
+        url:/writeup/Grandpa/
+      - title: "Jeeves"
+        url: /writeup/Jeeves/
+      - title: "Jerry"
+        url: /writeup/Jerry/
+      - title: "Lame"
+        url: /writeup/Lame/
+      - title: "Legacy"
+        url: /writeup/Legacy/
+      - title: "Netmon"
+        url: /writeup/Netmon/
+      - title: "Nibbles"
+        url: /writeup/Nibbles/
+      - title: "Optimum"
+        url: /writeup/Optimum/
+      - title: "SecNotes"
+        url:/writeup/SecNotes/
+      - title: ""
+        url: 
+      - title: ""
+        url: 
+      - title: ""
+        url: 
+      - title: ""
+        url: 
+      - title: ""
+        url: 
+      - title: ""
+        url: 
+      - title: ""
+        url: 
+      - title: ""
+        url:
+        
