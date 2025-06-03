@@ -1,3 +1,4 @@
-Sitemap: https://kar0nx.github.io/sitemap.xml
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: https://kar0nx.github.io/sitemap.xml
