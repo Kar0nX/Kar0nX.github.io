@@ -106,7 +106,7 @@ menu:
       - title: "Windows" 
         url: /notes/filetransferwindows/
 menu_writeups:
-  - title: HackTheBox
+  - title: HackTheBox - HTB
     children:
       - title: "Access"
         url: /writeup/Access/ 
@@ -144,16 +144,30 @@ menu_writeups:
         url: /writeup/Optimum/
       - title: "SecNotes"
         url: /writeup/SecNotes/
-      - title: ""
-        url: 
-      - title: ""
-        url: 
-      - title: ""
-        url: 
-      - title: ""
-        url: 
-      - title: ""
-        url: 
+  - title: TryHackMe - THM
+    children:
+      - title: "Alfred"
+        url: /writeup/Alfred/
+      - title: "Anonymous"
+        url: /writeup/Anonymous/
+      - title: "Blaster"
+        url: /writeup/Blaster/
+      - title: "ConvertMyVideo"
+        url: /writeup/ConvertMyVideo/
+      - title: "Ignite"
+        url: /writeup/Ignite/
+      - title: "Kenobi"
+        url: /writeup/Kenobi/
+      - title: "LazyAdmin"
+        url: /writeup/LazyAdmin/
+      - title: "RootMe"
+        url: /writeup/RootMe/
+      - title: "Skynet"
+        url: /writeup/Skynet/
+      - title: "Thompson"
+        url: /writeup/Thompson/
+      - title: "Tomghost"
+        url: /writeup/Tomghost/
       - title: ""
         url: 
       - title: ""
