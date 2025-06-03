@@ -109,6 +109,6 @@ menu_writeups:
   - title: HackTheBox
     children:
       - title: "Access"
-        url: /writeups/Access/ 
+        url: /writeup/Access/ 
       - title: "Arctic"
         url: /writeups/Arctic/
