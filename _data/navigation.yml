@@ -108,42 +108,178 @@ menu:
 menu_writeups:
   - title: HackTheBox - HTB
     children:
+      - title: "Active"
+        url: /writeup/Active/
+      - title: "Administrator"
+        url: /writeup/Administrator/
       - title: "Access"
-        url: /writeup/Access/ 
+        url: /writeup/Access/
+      - title: "Aero"
+        url: /writeup/Aero/
+      - title: "Analytics"
+        url: /writeup/Analytics/
       - title: "Arctic"
         url: /writeup/Arctic/
-      - title: "Bashed"
-        url: /writeup/Bashed/
+      - title: "Armageddon"
+        url: /writeup/Armageddon/
+      - title: "Atom"
+        url: /writeup/Atom/
       - title: "Bastard"
         url: /writeup/Bastard/
       - title: "Bastion"
         url: /writeup/Bastion/
-      - title: "Blue"
-        url: /writeup/Blue/
+      - title: "Bashed"
+        url: /writeup/Bashed/
+      - title: "Blackfield"
+        url: /writeup/Blackfield/
+      - title: "Blocky"
+        url: /writeup/Blocky/
+      - title: "BoardLight"
+        url: /writeup/BoardLight/
+      - title: "Bounty"
+        url: /writeup/Bounty/
+      - title: "Broker"
+        url: /writeup/Broker/
+      - title: "Buff"
+        url: /writeup/Buff/
+      - title: "Builder"
+        url: /writeup/Builder/
+      - title: "Busqueda"
+        url: /writeup/Busqueda/
+      - title: "Cap"
+        url: /writeup/Cap/
+      - title: "Cascade"
+        url: /writeup/Cascade/
+      - title: "Celestial"
+        url: /writeup/Celestial/
       - title: "Chatterbox"
         url: /writeup/Chatterbox/
+      - title: "Cicada"
+        url: /writeup/Cicada/
+      - title: "Codify"
+        url: /writeup/Codify/
+      - title: "CozyHosting"
+        url: /writeup/CozyHosting/
       - title: "Devel"
         url: /writeup/Devel/
+      - title: "Devvortex"
+        url: /writeup/Devvortex/
       - title: "Dog"
         url: /writeup/Dog/
+      - title: "Editorial"
+        url: /writeup/Editorial/
+      - title: "Escape"
+        url: /writeup/Escape/
+      - title: "Flight"
+        url: /writeup/Flight/
+      - title: "Forest"
+        url: /writeup/Forest/
+      - title: "Giddy"
+        url: /writeup/Giddy/
       - title: "Grandpa"
         url: /writeup/Grandpa/
+      - title: "Heist"
+        url: /writeup/Heist/
+      - title: "Help"
+        url: /writeup/Help/
+      - title: "Intelligence"
+        url: /writeup/Intelligence/
+      - title: "Irked"
+        url: /writeup/Irked/
       - title: "Jeeves"
         url: /writeup/Jeeves/
       - title: "Jerry"
         url: /writeup/Jerry/
+      - title: "Keeper"
+        url: /writeup/Keeper/
+      - title: "Knife"
+        url: /writeup/Knife/
       - title: "Lame"
         url: /writeup/Lame/
       - title: "Legacy"
         url: /writeup/Legacy/
+      - title: "Linkvortex"
+        url: /writeup/Linkvortex/
+      - title: "Love"
+        url: /writeup/Love/
+      - title: "Magic"
+        url: /writeup/Magic/
+      - title: "Mailing"
+        url: /writeup/Mailing/
+      - title: "Manager"
+        url: /writeup/Manager/
+      - title: "Markup"
+        url: /writeup/Markup/
+      - title: "Mentor"
+        url: /writeup/Mentor/
+      - title: "Monitored"
+        url: /writeup/Monitored/
+      - title: "Monteverde"
+        url: /writeup/Monteverde/
+      - title: "Networked"
+        url: /writeup/Networked/
       - title: "Netmon"
         url: /writeup/Netmon/
+      - title: "Nineveh"
+        url: /writeup/Nineveh/
       - title: "Nibbles"
         url: /writeup/Nibbles/
+      - title: "OpenAdmin"
+        url: /writeup/OpenAdmin/
       - title: "Optimum"
         url: /writeup/Optimum/
+      - title: "Pandora"
+        url: /writeup/Pandora/
+      - title: "Pilgrimage"
+        url: /writeup/Pilgrimage/
+      - title: "Poison"
+        url: /writeup/Poison/
+      - title: "Popcorn"
+        url: /writeup/Popcorn/
+      - title: "Precious"
+        url: /writeup/Precious/
+      - title: "Querier"
+        url: /writeup/Querier/
+      - title: "Return"
+        url: /writeup/Return/
+      - title: "Sau"
+        url: /writeup/Sau/
+      - title: "Sauna"
+        url: /writeup/Sauna/
+      - title: "Sea"
+        url: /writeup/Sea/
       - title: "SecNotes"
         url: /writeup/SecNotes/
+      - title: "ServMon"
+        url: /writeup/ServMon/
+      - title: "Sniper"
+        url: /writeup/Sniper/
+      - title: "Soccer"
+        url: /writeup/Soccer/
+      - title: "SolidState"
+        url: /writeup/SolidState/
+      - title: "StreamIO"
+        url: /writeup/StreamIO/
+      - title: "Sunday"
+        url: /writeup/Sunday/
+      - title: "Support"
+        url: /writeup/Support/
+      - title: "SwagShop"
+        url: /writeup/SwagShop/
+      - title: "Tabby"
+        url: /writeup/Tabby/
+      - title: "TartarSauce"
+        url: /writeup/TartarSauce/
+      - title: "Timelapse"
+        url: /writeup/Timelapse/
+      - title: "Titanic"
+        url: /writeup/Titanic/
+      - title: "UnderPass"
+        url: /writeup/UnderPass/
+      - title: "UpDown"
+        url: /writeup/UpDown/
+      - title: "Usage"
+        url: /writeup/Usage/
   - title: TryHackMe - THM
     children:
       - title: "Alfred"
