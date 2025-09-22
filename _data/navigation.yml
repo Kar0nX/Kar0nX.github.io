@@ -135,6 +135,8 @@ menu_writeups:
         url: /writeup/Blackfield/
       - title: "Blocky"
         url: /writeup/Blocky/
+      - title: "Blue"
+        url: /writeup/Blue/
       - title: "BoardLight"
         url: /writeup/BoardLight/
       - title: "Bounty"
